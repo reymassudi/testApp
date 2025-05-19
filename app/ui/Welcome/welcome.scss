@@ -1,0 +1,28 @@
+.welcome-bg {
+  right: 0;
+  left: 0;
+  top: -65px;
+  z-index: 1;
+
+  .circle-lg, .circle-md, .ellipse-green {
+    position: absolute;
+    border-radius: 50%;
+  }
+  .circle-md {
+    height: 71px;
+    width: 181px;
+    top: 24px;
+    left: 117px;
+  }
+  .circle-lg, .ellipse-green {
+    height: 117px;
+    width: 100%;
+  }
+  .circle-lg {
+    top: 0;
+    left: 33px;
+  }
+  .ellipse-green {
+    top: 42px;
+  }
+}

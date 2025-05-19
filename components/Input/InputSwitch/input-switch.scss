@@ -1,0 +1,55 @@
+.input-switch {
+    --switch-width: 24px;
+    --switch-height: 13px;
+    --switch-circle: calc(var(--switch-height) - 4px);
+    --switch-transform: calc(var(--switch-width) - var(--switch-circle) - 3px);
+
+    position: relative;
+    width: var(--switch-width);
+    height: 24px;
+
+    .input-switch-slider {
+        position: absolute;
+        top: 6px;
+        left: 2px;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 16px;
+        border: 1px solid #838383;
+        width: var(--switch-width);
+        height: var(--switch-height);
+    }
+    .input-switch-slider:before {
+        position: absolute;
+        content: "";
+        height: var(--switch-circle);
+        width: var(--switch-circle);
+        left: 1px;
+        bottom: 1px;
+        background-color: #838383;
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 50%;
+    }
+
+    input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    input:checked + .input-switch-slider {
+        @apply bg-ultraviolet;
+        border: none;
+    }
+
+    input:checked + .input-switch-slider:before {
+        -webkit-transform: translateX(var(--switch-transform));
+        -ms-transform: translateX(var(--switch-transform));
+        transform: translateX(var(--switch-transform));
+        bottom: 2px;
+        background-color: white;
+    }
+}

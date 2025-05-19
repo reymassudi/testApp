@@ -1,0 +1,22 @@
+.progress-container {
+    .progress-bar-line {
+        @apply bg-gray-200;
+        height: 6px;
+        border-radius: 8px;
+        position: relative;
+    }
+
+    .progress-bar-fill {
+        @apply bg-ultraviolet;
+        position: absolute;
+        height: 100%;
+        transition: width 0.3s ease, background-color 0.3s ease;
+        width: 0;
+        border-radius: 8px;
+    }
+
+    svg {
+        width: 24px;
+        height: 24px;
+    }
+}

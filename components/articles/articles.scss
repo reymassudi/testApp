@@ -1,0 +1,32 @@
+.articles {
+    --article-width: 210px;
+}
+
+.article-card {
+    @apply me-4;
+    border: 1px solid #F0F0F0;
+    border-radius: var(--border-radius);
+    width: var(--article-width);
+
+    .article-img {
+        height: 93px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        border-top-left-radius: var(--border-radius);
+        border-top-right-radius: var(--border-radius);
+    }
+    .article-description {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        white-space: normal;
+    }
+    .article-title {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: block;
+        overflow: hidden;
+    }
+}

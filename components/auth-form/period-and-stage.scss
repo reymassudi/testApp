@@ -1,0 +1,9 @@
+.period-and-stage {
+  .custom-select {
+    font-size: var(--input-font-size-sm);
+
+    .select-dropdown ul {
+      max-height: 130px;
+    }
+  }
+}

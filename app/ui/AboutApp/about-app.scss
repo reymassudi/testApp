@@ -1,0 +1,82 @@
+.terms-page {
+  @apply pt-6 px-4 mb-10 text-gray-700;
+  position: relative;
+  z-index: 10;
+
+  p {
+    @apply font-bold;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  div {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 4px;
+  }
+  ul {
+    list-style: disc inside;
+  }
+  li {
+    @apply ps-2;
+  }
+
+  .stork {
+    position: absolute;
+    top: 0;
+    right: -58px;
+  }
+}
+
+.terms-page-bg {
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+
+  .ellipse-yellow, .ellipse-green {
+    transform: rotate(108deg);
+    height: 117px;
+    width: 161px;
+  }
+  .ellipse-yellow {
+    top: 52px;
+    left: -30px;
+  }
+  .ellipse-green {
+    left: -48px;
+    top: 10px;
+  }
+}
+.privacy-page-bg {
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+
+  .ellipse-yellow, .ellipse-green {
+    transform: rotate(108deg);
+    height: 117px;
+    width: 161px;
+  }
+  .ellipse-yellow {
+    top: 32px;
+    right: -48px;
+  }
+  .ellipse-green {
+    right: -30px;
+    top: -10px;
+  }
+}
+
+html[dir="rtl"] {
+  .stork-container {
+    overflow: hidden;
+    min-height: 400px;
+    margin-left: -32px;
+    padding-left: 32px;
+  }
+  .stork {
+    right: unset;
+    left: -25px;
+  }
+}

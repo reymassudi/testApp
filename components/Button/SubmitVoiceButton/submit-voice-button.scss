@@ -1,0 +1,53 @@
+.submit-voice-button {
+  position: absolute;
+  inset-inline-end: 16px;
+  width: auto;
+
+  svg {
+    width: 24px;
+    height: 24px;
+
+    path {
+      stroke: #666666;
+    }
+  }
+
+  &.voice-recording {
+    svg {
+      @apply bg-mint;
+      box-shadow: 0 0 0 0 rgba(211, 232, 214, 0.6);
+      border-radius: 50%;
+      animation: pulse-shadow 1.5s infinite ease-in-out;
+    }
+  }
+}
+
+@keyframes pulse-shadow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(211, 232, 214, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 15px 8px rgba(211, 232, 214, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(211, 232, 214, 0.8);
+  }
+}
+
+.waveform {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 100%;
+
+  svg {
+    width: 148px;
+    height: 24px;
+  }
+}
+
+.waveform-bar {
+  @apply bg-gray-400;
+  width: 4px;
+  border-radius: 4px;
+}

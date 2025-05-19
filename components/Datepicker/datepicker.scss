@@ -1,0 +1,161 @@
+.date-picker-modal {
+  --week-day-width: 33px;
+
+  .modal-content {
+    height: 470px;
+  }
+  button {
+    height: auto;
+  }
+  .week-days, .calendar-days {
+    justify-content: space-between;
+  }
+  .date-picker-day {
+    @apply mb-2;
+  }
+}
+
+.week-days {
+  @apply mb-2;
+  display: grid;
+  grid-template-columns: repeat(7, var(--week-day-width));
+}
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, var(--week-day-width));
+}
+
+.datepicker-week-day {
+  @apply text-gray-600;
+  width: var(--week-day-width);
+  height: 24px;
+  text-align: center;
+}
+:nth-last-child(1 of .datepicker-week-day) {
+  @apply me-0;
+}
+
+.date-picker-day {
+  color: #3C3C43;
+  width: var(--week-day-width);
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius-sm);
+
+  &.date-picked {
+    font-weight: 700;
+    border-radius: 4px;
+  }
+}
+
+.month-year-picker {
+  @apply text-gray-600 py-4 px-2;
+  position: absolute;
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: 0px 30px 40px 0px #0000001A;
+  width: 116px;
+  max-height: 295px;
+  overflow: scroll;
+
+  .month-name, .year-name {
+    @apply py-1 px-2 mb-0.5;
+
+    &.date-picked {
+      font-weight: 700;
+      border-radius: 4px;
+    }
+  }
+}
+:nth-last-child(1 of .month-name), :nth-last-child(1 of .year-name) {
+  @apply mb-0;
+}
+
+.datepicker-input {
+  height: var(--input-height);
+  font-size: var(--input-font-size-sm);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  svg {
+    width: 16px;
+    height: 16px;
+
+    path {
+      @apply stroke-gray-400;
+    }
+  }
+}
+
+.weekly-calendar {
+  @apply px-0.5;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.weekly-day {
+  @apply bg-white border-gray-100 py-2;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 24px;
+  text-align: center;
+  color: #666666;
+
+  &.date-picked {
+    border-width: 0;
+  }
+  &.date-has-event {
+    @apply border-mintNeon;
+  }
+}
+
+.calendar-day {
+  --week-day-width: 32px;
+
+  .week-days, .calendar-days {
+    gap: 8px 12px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .date-picker-day {
+    &.date-has-event {
+      @apply border-mintNeon;
+      border-top-width: 3px;
+      border-top-style: solid;
+    }
+    &.date-picked-calendar {
+      @apply bg-gray-400 text-white;
+    }
+  }
+
+  .baby-balloons {
+    position: absolute;
+    top: -26px;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  input:checked + .baby-balloons {
+    opacity: 1;
+    transform: scale(1);
+  }
+  input[type="checkbox"]:checked ~ .baby-bday-heart path {
+    fill: #E49BF2;
+    stroke: #E49BF2;
+  }
+}
+
+.date-disabled {
+  @apply text-gray-600;
+  background-color: #F9F9F9;
+}
+.date-picked {
+  @apply bg-ultraviolet;
+  color: white;
+}

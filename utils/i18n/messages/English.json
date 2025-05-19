@@ -1,0 +1,292 @@
+{
+  "app_name": "Royana",
+  "app_company_name": "NEXTGENAI",
+  "company_name": "NEXTGENAI",
+  "article": {
+    "articles": "Articles",
+    "description": "Essential Insights for a Healthy Pregnancy",
+    "study_time": "Study time: {t} min"
+  },
+  "auth": {
+    "accept_terms": "I agree to the <terms>Terms of Service</terms> and <privacy>Privacy Policy</privacy>.",
+    "code": "Code",
+    "code_search_placeholder": "Search Countries",
+    "country_code": "Country Code",
+    "enter_code": "Enter Code",
+    "enter_phone": "Enter Phone Number",
+    "get_code": "Get Code",
+    "google_sign_up": "Log in with Google",
+    "phone_placeholder": "09123456789",
+    "resend_code": "Send the code again",
+    "sign_up": "Log in",
+    "skip": "Skip",
+    "submit": "Submit",
+    "to_app": "To {app}",
+    "welcome": "Welcome"
+  },
+  "calendar": {
+    "add_symptom": "Add symptom",
+    "add_to_calendar": "Add to calendar",
+    "analysis": "Analysis",
+    "calendar": "Calendar",
+    "choose_feel": "Choose what you feel",
+    "daily_insights": "Daily Insights",
+    "daily_mood": "Daily Mood",
+    "doctor_appointment": "Doctor appointment",
+    "enter_time": "Enter time",
+    "event": "event",
+    "event_type": "Event type",
+    "full_calendar": "Full Calendar",
+    "hour": "hour",
+    "log_symptom": "Log your symptom",
+    "midday_after": "pm",
+    "midday_after_short": "pm",
+    "midday_before": "am",
+    "midday_before_short": "am",
+    "minute": "minute",
+    "month": "Month",
+    "moods_negative": "Negative Moods",
+    "moods_neutral": "Neutral / Mixed Moods",
+    "moods_positive": "positive moods",
+    "remind": "remind",
+    "reminder": "reminder",
+    "set_date_time": "Set date & time",
+    "symptom": "symptom",
+    "symptoms": "Symptoms",
+    "this_week": "This week",
+    "year": "Year",
+    "your_mood": "your mood"
+  },
+  "chat": {
+    "chat_placeholder": "Message here",
+    "copy": "Copy",
+    "empty_chat_text": "Talk to me about your pregnancy and your feelings",
+    "history": "History",
+    "new_chat": "New Chat",
+    "rename": "Rename",
+    "reply": "Reply",
+    "warning_text": "Suggestions only; consult a doctor."
+  },
+  "error": {
+    "404": "Error 404",
+    "album_upload_failed": "Upload failed, try again.",
+    "img_format": "Please upload only JPG or PNG files",
+    "not_valid": "Not valid",
+    "required": "{name} is required",
+    "server": "Try again",
+    "too_large": "Try again/ max size is {n} MB",
+    "validation": "{name} is not valid"
+  },
+  "gallery": {
+    "browse": "Browse File",
+    "gallery_text": "You can record your pregnancy moments here, and we’ll create a video for you.",
+    "no_image": "You didn’t upload any images yet",
+    "photo_num": "{num} Photo",
+    "pregnancy_moments": "Pregnancy Moments",
+    "upload_here": "Upload here",
+    "upload_limits": "JPG or PNG format",
+    "uploading_file": "Uploading",
+    "your_gallery": "Your Gallery"
+  },
+  "general": {
+    "add": "Add {var}",
+    "back_to_home": "Back to home",
+    "date": "Date",
+    "datepicker_placeholder": "Select a day",
+    "delete": "Delete",
+    "description": "description",
+    "edit": "Edit {var}",
+    "not_found": "Page not found",
+    "not_found_button": "Go Back",
+    "not_found_text": "Sorry that page can’t be found.",
+    "notification": "notification",
+    "ok": "ok",
+    "or": "Or",
+    "optional": "Optional",
+    "save_changes": "Save changes",
+    "search": "Search",
+    "see_more": "See More",
+    "select": "Select",
+    "title": "title"
+  },
+  "home": {
+    "ask_me": "Ask me",
+    "ask_me_food": "What food should I avoid?",
+    "ask_me_sleep": "What’s the best sleeping position?",
+    "back_to_week": "Back to current week",
+    "chat_placeholder": "Message here",
+    "complete_details_message": "Complete your details to start exploring personalized features",
+    "get_started": "Get Started Now",
+    "necessary_tests": "Necessary tests",
+    "pregnancy_stage_in": "in pregnancy",
+    "pregnancy_stage_left": "{num} left",
+    "pregnancy_stage_string": "You are {num} weeks pregnant",
+    "pregnancy_stage_trimester": "{atr} trimester",
+    "pregnancy_stage_d": "{day} days",
+    "pregnancy_stage_1w": "1 week",
+    "pregnancy_stage_w": "{week} weeks",
+    "pregnancy_stage_1w_1d": "1 week and 1 day",
+    "pregnancy_stage_1w_d": "1 week and {day} days",
+    "pregnancy_stage_w_1d": "{week} weeks and 1 day",
+    "pregnancy_stage_w_d": "{week} weeks and {day} days",
+    "pregnancy_progress_week": "Week {week}",
+    "pregnancy_stage_unknown_message": "How far along are you in your pregnancy?",
+    "week_tips_title": "This week's tips",
+    "welcome_message_dear": "Hello dear mother",
+    "welcome_message_name": "Hello {name}"
+  },
+  "menu": {
+    "about_us": "About Us",
+    "article": "Articles",
+    "calendar": "Calendar",
+    "chat": "Chat with Ai",
+    "diet_guide": "Diet Guide",
+    "freq_questions": "Frequently Asked Questions",
+    "home": "Home",
+    "pregnancy_moments": "Pregnancy Moments",
+    "privacy_policy": "Privacy Policy",
+    "profile": "Profile",
+    "sign_out": "Exit",
+    "terms": "Terms of Service"
+  },
+  "pregnancy": {
+    "baby_sex": "Baby’s sex",
+    "blood_pressure": "Pregnancy blood pressure",
+    "days_placeholder": "By days",
+    "diabetes": "Gestational Diabetes",
+    "first_child": "First Child",
+    "last_period": "Your Last Period",
+    "medical_details": "Medical Details",
+    "pregnancy_loss": "Pregnancy loss",
+    "pregnancy_stage": "Choose pregnancy stage",
+    "pregnancy_state": "Pregnancy State",
+    "special_conditions": "Special Conditions",
+    "special_conditions_placeholder": "Write here the name of disease",
+    "week_number": "{num} week",
+    "weeks_placeholder": "By week"
+  },
+  "profile": {
+    "age": "Your Age",
+    "age_placeholder": "Write your Age",
+    "choose_image": "Choose Image",
+    "email": "Email Address",
+    "email_placeholder": "Your email address",
+    "name": "Your Name",
+    "name_placeholder": "Write your Name",
+    "personal_data": "Personal Data",
+    "phone": "Phone Number"
+  },
+  "terms": {
+    "about_us": "About Us",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service"
+  },
+  "statics": {
+    "auth-slider": {
+      "1": {
+        "title": "AI Support, Anytime",
+        "subTitle": "Quick answers to your questions"
+      },
+      "2": {
+        "title": "Connect with Moms",
+        "subTitle": "Share and learn with others"
+      },
+      "3": {
+        "title": "Weekly Insights",
+        "subTitle": "Tips tailored to your journey"
+      }
+    },
+    "cal_days": {
+      "1": "Mon",
+      "2": "Tue",
+      "3": "Wed",
+      "4": "Thu",
+      "5": "Fri",
+      "6": "Sat",
+      "7": "Sun"
+    },
+    "cal_month": {
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December"
+    },
+    "event_types": {
+      "doctor_appointment": "Doctor appointment",
+      "pregnancy_test": "Pregnancy test"
+    },
+    "genders": {
+      "boy": "Boy",
+      "girl": "Girl",
+      "twin": "Twin",
+      "unknown_gender": "I don’t know"
+    },
+    "locales": {
+      "arabic": "Arabic",
+      "english": "English",
+      "persian": "Persian"
+    },
+    "moods": {
+      "angry": "Angry",
+      "anxious": "Anxious",
+      "bored": "Bored",
+      "calm": "Calm",
+      "cheerful": "Cheerful",
+      "confused": "Confused",
+      "depressed": "Depressed",
+      "drained": "Drained",
+      "energetic": "Energetic",
+      "excited": "Excited",
+      "frisky": "Frisky",
+      "grateful": "Grateful",
+      "happy": "Happy",
+      "hopeless": "Hopeless",
+      "indifferent": "Indifferent",
+      "irritated": "Irritated",
+      "loved": "Loved",
+      "motivated": "Motivated",
+      "neutral": "Neutral",
+      "numb": "Numb",
+      "obsessive_thoughts": "Obsessive Thoughts",
+      "overwhelmed": "Overwhelmed",
+      "relaxed_but_empty": "Relaxed but empty",
+      "sad": "Sad",
+      "so_so": "so so"
+    },
+    "moods_daily": {
+      "down": "down",
+      "good": "good",
+      "great": "great",
+      "miserable": "blue",
+      "neutral": "neutral"
+    },
+    "ordinals": {
+      "1st": "First",
+      "2nd": "Second",
+      "3rd": "Third"
+    },
+    "reminder": {
+      "one_Day": "1 day before",
+      "two_Day": "2 days before",
+      "every_Day": "Every day "
+    },
+    "symptoms": {
+      "all_fine": "All is fine",
+      "back_pain": "Back pain",
+      "breast_changes": "Breast changes",
+      "fatigue_low_energy": "Fatigue & low energy",
+      "frequent_urination": "Frequent Urination",
+      "heartburn": "Heartburn",
+      "morning_sickness": "Morning sickness",
+      "swelling": "Swelling"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+export const company_mail = 'info@nextgenai.ir';
+export const company_website = ' https://nextgenai.ir';
+export const token_expiration = 1; // day
+export const refresh_token_expiration = 4;
+export const otp_expiration = 2; // min
+export const pregnancy_total_weeks = 40;
+export const album_page_count = 10;
+export const chat_page_count = 14;
+export const history_page_count = 20;
+export const img_valid_formats = ['image/png', 'image/jpeg'];
+export const img_size_limit = 5;
+export const default_locale = { language: 'Persian', rtl: true };

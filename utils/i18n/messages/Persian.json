@@ -1,0 +1,292 @@
+{
+  "app_name": "رویانا",
+  "app_company_name": "توسعه نوآوری هوشمند آینده",
+  "company_name": "هوش آینده",
+  "article": {
+    "articles": "مقالات",
+    "description": "نکات کلیدی برای یک بارداری سالم و آرام",
+    "study_time": "مدت مطالعه: {t} دقیقه"
+  },
+  "auth": {
+    "accept_terms": "<terms>شرایط و ضوابط خدمات</terms> و <privacy>حریم خصوصی</privacy> را می\u200Cپذیرم.",
+    "code": "کد یک\u200Cبار مصرف",
+    "code_search_placeholder": "جستجو",
+    "country_code": "کد کشور",
+    "enter_code": "کد یک\u200Cبار مصرف را وارد کنید",
+    "enter_phone": "شماره همراه خود را وارد کنید",
+    "get_code": "کد یک\u200Cبار مصرف",
+    "google_sign_up": "ورود با حساب گوگل",
+    "phone_placeholder": "09123456789",
+    "resend_code": "ارسال مجدد کد",
+    "sign_up": "ورود",
+    "skip": "بعدا",
+    "submit": "تایید",
+    "to_app": "به جمع مامانا",
+    "welcome": "خوش اومدی"
+  },
+  "calendar": {
+    "add_symptom": "بدنت در چه حاله",
+    "add_to_calendar": "افزودن به تقویم",
+    "analysis": "Analysis",
+    "calendar": "تقویم",
+    "choose_feel": "امروز چه حسی داری؟",
+    "daily_insights": "نگاهی به روز",
+    "daily_mood": "حس و حال روزانه",
+    "doctor_appointment": "رویدادها",
+    "enter_time": "انتخاب ساعت",
+    "event": "رویداد",
+    "event_type": "نوع رویداد",
+    "full_calendar": "تقویم کامل",
+    "hour": "ساعت",
+    "log_symptom": "وارد کردن علائم",
+    "midday_after": "بعد از ظهر",
+    "midday_after_short": "ب.ظ",
+    "midday_before": "قبل از ظهر",
+    "midday_before_short": "ق.ظ",
+    "minute": "دقیقه",
+    "month": "ماه",
+    "moods_negative": "حس\u200Cهای منفی",
+    "moods_neutral": "حس\u200Cهای خنثی",
+    "moods_positive": "حس\u200Cهای مثبت",
+    "remind": "یادآور",
+    "reminder": "یادآور",
+    "set_date_time": "تنظیم روز و ساعت",
+    "symptom": "symptom",
+    "symptoms": "علائم فیزیکی",
+    "this_week": "هفته جاری",
+    "year": "سال",
+    "your_mood": "حس و حال روزانه"
+  },
+  "chat": {
+    "chat_placeholder": "وارد کردن پیام",
+    "copy": "کپی",
+    "empty_chat_text": "می\u200Cتونی درباره بارداریت و احساسی که داری با من صحبت کنی",
+    "history": "تاریخچه",
+    "new_chat": "چت جدید",
+    "rename": "ویرایش نام",
+    "reply": "پاسخ",
+    "warning_text": "این موارد فقط پیشنهاد هستند؛ با پزشک مشورت کنید."
+  },
+  "error": {
+    "404": "خطای 404",
+    "album_upload_failed": "خطا! دوباره امتحان کنید",
+    "img_format": "لطفا تنها فایل\u200Cهایی با فرمت JPG یا PNG بارگذاری کنید",
+    "not_valid": "نامعتبر",
+    "required": "{name} اجباری است",
+    "server": "مجددا تلاش کنید",
+    "too_large": "حجم فایل زیاد است! /حداکثر {n} مگابایت",
+    "validation": "{name} نامعتبر"
+  },
+  "gallery": {
+    "browse": "جستجوی فایل",
+    "gallery_text": "شما می\u200Cتوانید عکس لحظات شیرین دوران بارداری خود را جهت ثبت، اینجا بارگذاری کنید.",
+    "no_image": " هنوز هیچ عکسی بارگذاری نکردید.",
+    "photo_num": "{num} عکس",
+    "pregnancy_moments": "لحظات ماندگار بارداری",
+    "upload_here": "بارگذاری عکس",
+    "upload_limits": "فرمت JPG یا PNG",
+    "uploading_file": "در حال بارگذاری",
+    "your_gallery": "گالری عکس"
+  },
+  "general": {
+    "add": "اضافه کردن {var}",
+    "back_to_home": "صفحه اصلی",
+    "date": "تاریخ",
+    "datepicker_placeholder": "انتخاب روز",
+    "delete": "حذف",
+    "description": "توضیحات",
+    "edit": "ویرایش {var}",
+    "not_found": "صفحه یافت نشد",
+    "not_found_button": "بازگشت",
+    "not_found_text": "متاسفانه صفحه\u200Cی مورد نظر شما پیدا نشد",
+    "notification": "اعلانات",
+    "ok": "تایید",
+    "or": "یا",
+    "optional": "اختیاری",
+    "save_changes": "ذخیره تغییرات",
+    "search": "جستجو",
+    "see_more": "بیشتر",
+    "select": "انتخاب",
+    "title": "عنوان"
+  },
+  "home": {
+    "ask_me": "از من بپرس",
+    "ask_me_food": "از چه مواد غذایی دوری کنم؟",
+    "ask_me_sleep": "بهترین حالات خوابیدن مادر چیه؟",
+    "back_to_week": "بازگشت به هفته فعلی",
+    "chat_placeholder": "سوال خود را اینجا بنویسید",
+    "complete_details_message": "با وارد کردن کامل مشخصات و شرایط، امکانات شخصی سازی شده دریافت کنید.",
+    "get_started": "همین حالا شروع کن",
+    "necessary_tests": "آزمایش\u200Cهای ضروری",
+    "pregnancy_stage_in": "از بارداری شما گذشته",
+    "pregnancy_stage_left": "{num} تا پایان بارداری",
+    "pregnancy_stage_string": "شما در هفته\u200Cی {num} بارداری هستی",
+    "pregnancy_stage_trimester": "سه\u200Cماهه {atr}",
+    "pregnancy_stage_d": "{day} روز",
+    "pregnancy_stage_1w": "1 هفته",
+    "pregnancy_stage_w": "{week} هفته",
+    "pregnancy_stage_1w_1d": "1 هفته و 1 روز",
+    "pregnancy_stage_1w_d": "1 هفته و {day} روز",
+    "pregnancy_stage_w_1d": "{week} هفته و 1 روز",
+    "pregnancy_stage_w_d": "{week} هفته و {day} روز",
+    "pregnancy_progress_week": "هفته {week}",
+    "pregnancy_stage_unknown_message": "اگه هفته حاملگیت رو میدونی واردش کن تا مطابق نیازت کمکت کنیم",
+    "week_tips_title": "توصیه\u200Cهای این هفته",
+    "welcome_message_dear": "سلام مامان عزیز",
+    "welcome_message_name": "سلام {name}"
+  },
+  "menu": {
+    "about_us": "درباره\u200Cی ما",
+    "article": "مجله",
+    "calendar": "تقویم",
+    "chat": "چت با Ai",
+    "diet_guide": "برنامه\u200Cی غذایی",
+    "freq_questions": "سوالات متداول",
+    "home": "خانه",
+    "pregnancy_moments": "لحظات ماندگار بارداری",
+    "privacy_policy": "حریم خصوصی",
+    "profile": "حساب کاربری",
+    "sign_out": "خروج از حساب",
+    "terms": "شرایط و ضوابط"
+  },
+  "pregnancy": {
+    "baby_sex": "جنسیت بچه",
+    "blood_pressure": "فشار خون بارداری",
+    "days_placeholder": "برحسب روز",
+    "diabetes": "دیابت بارداری",
+    "first_child": "بارداری اول",
+    "last_period": "تاریخ آخرین پریود",
+    "medical_details": "مشخصات پزشکی",
+    "pregnancy_loss": "سقط جنین",
+    "pregnancy_stage": "مرحله\u200Cی بارداری",
+    "pregnancy_state": "وضعیت  بارداری",
+    "special_conditions": "شرایط ویژه",
+    "special_conditions_placeholder": "نام بیماری را بنویسید",
+    "week_number": "هفته {num}",
+    "weeks_placeholder": "برحسب هفته"
+  },
+  "profile": {
+    "age": "سن",
+    "age_placeholder": "سن شما",
+    "choose_image": "انتخاب عکس",
+    "email": "پست الکترونیک",
+    "email_placeholder": "آدرس ایمیل شما",
+    "name": "نام کاربری",
+    "name_placeholder": "نام کاربری شما",
+    "personal_data": "اطلاعات کاربری",
+    "phone": "شماره موبایل"
+  },
+  "terms": {
+    "about_us": "درباره ما",
+    "privacy_policy": "حریم خصوصی",
+    "terms_of_service": "شرایط و ضوابط"
+  },
+  "statics": {
+    "auth-slider": {
+      "1": {
+        "title": "همراه هوشمند، ۲۴ ساعته",
+        "subTitle": "پاسخ سریع به سوالات شما"
+      },
+      "2": {
+        "title": "پیوستن به جمع مادران",
+        "subTitle": "اشتراک\u200Cگذاری و یادگیری از دیگران"
+      },
+      "3": {
+        "title": "تحلیل\u200Cهای هفتگی",
+        "subTitle": "توصیه\u200Cهای مناسب با شرایط شما"
+      }
+    },
+    "cal_days": {
+      "1": "ش",
+      "2": "ی",
+      "3": "د",
+      "4": "س",
+      "5": "چ",
+      "6": "پ",
+      "7": "ج"
+    },
+    "cal_month": {
+      "1": "فروردین",
+      "2": "اردیبهشت",
+      "3": "خرداد",
+      "4": "تیر",
+      "5": "مرداد",
+      "6": "شهریور",
+      "7": "مهر",
+      "8": "آبان",
+      "9": "آذر",
+      "10": "دی",
+      "11": "بهمن",
+      "12": "اسفند"
+    },
+    "event_types": {
+      "doctor_appointment": "وقت دکتر",
+      "pregnancy_test": "آزمایش\u200Cهای بارداری"
+    },
+    "genders": {
+      "boy": "پسر",
+      "girl": "دختر",
+      "twin": "دو قلو",
+      "unknown_gender": "هنوز نمیدانم"
+    },
+    "locales": {
+      "arabic": "Arabic",
+      "english": "English",
+      "persian": "Persian"
+    },
+    "moods": {
+      "angry": "عصبی",
+      "anxious": "مضطرب",
+      "bored": "بی\u200Cحوصله",
+      "calm": "آرام",
+      "cheerful": "پر انرژی",
+      "confused": "سردرگم",
+      "depressed": "افسرده",
+      "drained": "بی\u200Cانرژی",
+      "energetic": "سرزنده",
+      "excited": "هیجان\u200Cزده",
+      "frisky": "سر کیف",
+      "grateful": "قدردان",
+      "happy": "خوشحال",
+      "hopeless": "نا امید",
+      "indifferent": "بی تفاوت",
+      "irritated": "کلافه",
+      "loved": "دوست\u200Cداشتنی ",
+      "motivated": "پر انگیزه",
+      "neutral": "عادی",
+      "numb": "بی حس",
+      "obsessive_thoughts": "افکار مزاحم",
+      "overwhelmed": "تحت فشار",
+      "relaxed_but_empty": "پوچی",
+      "sad": "غمگین",
+      "so_so": "نه خوب نه بد"
+    },
+    "moods_daily": {
+      "down": "بد",
+      "good": "خوب",
+      "great": "عالی",
+      "miserable": "آشفته",
+      "neutral": "معمولی"
+    },
+    "ordinals": {
+      "1st": "اول",
+      "2nd": "دوم",
+      "3rd": "سوم"
+    },
+    "reminder": {
+      "one_Day": "1 روز قبل",
+      "two_Day": "2 روز قبل",
+      "every_Day": "هر روز "
+    },
+    "symptoms": {
+      "all_fine": "همه چیز رو به راهه",
+      "back_pain": "کمر درد",
+      "breast_changes": "تغییرات پستان",
+      "fatigue_low_energy": "بی\u200Cحالی مزمن",
+      "frequent_urination": "تکرر ادرار",
+      "heartburn": "سوزش قلب",
+      "morning_sickness": "تهوع صبح\u200Cگاهی",
+      "swelling": "درد شکم"
+    }
+  }
+}

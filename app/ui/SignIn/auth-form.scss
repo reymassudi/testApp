@@ -1,0 +1,104 @@
+.auth-form {
+    --phone-input-x-padding: 16px;
+    --phone-input-y-padding: 8px;
+
+    input {
+        font-size: 0.875rem;
+    }
+    label {
+        @apply text-gray-400 mb-2;
+        display: block;
+    }
+    .label-option {
+        @apply ms-1;
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1.125rem;
+    }
+    .auth-input-group {
+        margin-bottom: 3.75rem;
+    }
+    .last-period {
+        @apply mb-6;
+    }
+
+    .phone-input {
+        @apply bg-gray-200;
+        padding: var(--phone-input-y-padding) var(--phone-input-x-padding);
+        height: var(--input-height);
+        border-radius: var(--border-radius);
+        width: 100%;
+        position: relative;
+        direction: ltr;
+
+        .auth-input {
+            @apply bg-gray-200 px-2 py-0;
+            border-radius: 0;
+            height: 24px;
+            line-height: 24px;
+            direction: ltr;
+        }
+    }
+
+    .country-code {
+        font-size: 0.875rem;
+
+        .select-input {
+            @apply bg-gray-200;
+            border-radius: 0;
+            height: 24px;
+            flex-direction: row-reverse;
+            justify-content: start;
+        }
+        .select-arrow {
+            @apply me-2 ms-0;
+        }
+        .select-dropdown {
+            min-width: 170px;
+            inset-inline-start: calc(-1 * var(--phone-input-x-padding));
+            inset-inline-end: unset;
+
+            &.open {
+                transform: translateY(var(--phone-input-y-padding));
+            }
+        }
+        .dropdown-option {
+            white-space: break-spaces;
+        }
+    }
+
+    .auth-or {
+        @apply text-gray-400 my-2;
+        width: 100%;
+        text-align: center;
+    }
+
+    .google-button {
+        @apply bg-gray-200 text-gray-400 py-3 px-2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: var(--border-radius);
+        font-weight: normal;
+
+        svg {
+            @apply me-2;
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .input-error-text {
+        font-size: 1rem;
+    }
+}
+
+html[dir="rtl"] {
+    .select-search-input {
+        direction: rtl;
+    }
+    .select-dropdown ul {
+        direction: rtl;
+    }
+}

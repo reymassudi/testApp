@@ -1,0 +1,15 @@
+.submit-input-button {
+  position: absolute;
+  inset-inline-end: 16px;
+  width: auto;
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+  &[disabled=disabled], &:disabled {
+    svg path {
+      @apply fill-gray-400;
+    }
+  }
+}

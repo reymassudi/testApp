@@ -1,0 +1,72 @@
+.page-not-found {
+  --img-width: 193px;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  .not-found-container {
+    padding: 0 11px;
+    width: var(--img-width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  svg {
+    width: var(--img-width);
+    margin-left: -11px;
+    margin-right: -11px;
+  }
+  button {
+    width: 170px;
+  }
+}
+
+.not-found .other-layout {
+  position: relative;
+  z-index: 10;
+}
+
+.not-found-bg {
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+
+  .bg-shape-top {
+    .ellipse-yellow, .ellipse-green {
+      transform: rotate(53deg);
+      height: 157px;
+      width: 216px;
+    }
+    .ellipse-yellow {
+      top: 114px;
+      right: -94px;
+    }
+    .ellipse-green {
+      right: -150px;
+      top: 90px;
+    }
+  }
+  .bg-shape-bottom {
+    .ellipse-yellow, .ellipse-green {
+      width: 157px;
+      height: 216px;
+    }
+    .ellipse-yellow {
+      top: 404px;
+      left: -54px;
+    }
+    .ellipse-green {
+      left: -110px;
+      top: 380px;
+    }
+  }
+}

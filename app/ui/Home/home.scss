@@ -1,0 +1,104 @@
+.home-page {
+  z-index: 40;
+  position: relative;
+}
+
+.user-welcome {
+  padding-inline-start: var(--body-padding-x);
+  margin-top: 40px;
+  margin-bottom: var(--body-padding-x);
+
+  .pregnancy-stage-message {
+    @apply text-gray-800;
+
+    span {
+      max-width: 240px;
+      display: block;
+    }
+  }
+}
+
+.ask-me-card {
+  @apply bg-mint;
+  padding: 32px var(--body-padding-x);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+
+  .ask-me-chip {
+    @apply text-gray-600 me-2;
+    padding: 4px 16px;
+    border-radius: var(--border-radius);
+    background-color: rgba(white, 60%);
+    box-shadow: 0px 8px 20px 0px #B1C1B414;
+  }
+
+  .input-message__input {
+    @apply border-white;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 0px 8px 20px 0px #B1C1B414;
+  }
+}
+
+.week-stage-unknown-container {
+  position: relative;
+  margin: 32px calc(-1 * var(--body-padding-x)) 0 calc(-1 * var(--body-padding-x));
+  isolation: isolate;
+}
+.week-stage-unknown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+  padding: 0 32px;
+
+  button {
+    width: 192px;
+  }
+}
+
+.week-stage-known {
+  @apply bg-gray-200;
+  margin: var(--body-padding-x) calc(-1 * var(--body-padding-x)) 0 calc(-1 * var(--body-padding-x));
+  padding: 32px var(--body-padding-x);
+
+  .week-stage-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: var(--border-radius);
+    padding: 24px 16px;
+  }
+  .pregnancy-date {
+    @apply border-mint mb-4;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 0 4px 16px 4px;
+  }
+}
+
+.week-tips {
+  z-index: 2;
+  position: relative;
+
+  .tip-card {
+    @apply bg-ultraviolet p-6;
+    border-radius: var(--border-radius);
+    direction: ltr;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+html[dir='rtl'] {
+  .week-tips p {
+    direction: rtl;
+  }
+}

@@ -1,0 +1,53 @@
+.home-bg-top {
+    right: 0;
+    left: 0;
+    top: 37px;
+    z-index: 1;
+}
+
+.home-bg-top, .home-bg-bottom {
+    .ellipse-yellow, .ellipse-green {
+        height: 117px;
+        width: 299px;
+    }
+    .ellipse-yellow {
+        top: 0;
+        left: -200px;
+    }
+    .ellipse-green {
+        top: 42px;
+        left: -233px;
+    }
+}
+
+.home-bg-middle {
+    right: 0;
+    left: 0;
+    top: -100px;
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+
+    .ellipse-yellow {
+        position: absolute;
+        right: -50px;
+        height: 181px;
+        width: 71px;
+        transform: rotate(175.82deg);
+    }
+}
+
+.home-bg-bottom {
+    right: 0;
+    left: 0;
+    top: 45px;
+    z-index: 1;
+    direction: rtl;
+
+    .ellipse-yellow {
+        right: -233px;
+    }
+    .ellipse-green {
+        right: -200px;
+    }
+}
