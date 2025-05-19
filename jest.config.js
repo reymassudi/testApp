@@ -2,18 +2,14 @@ module.exports = {
   testEnvironment: 'jest-environment-jsdom',
   transform: {
     '^.+\\.(js|jsx)$': 'babel-jest',
+    '^.+\\.svg$': 'jest-transform-stub', // یا svgrMock.js
   },
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
-
-    // فایل‌های SVG که با SVGR به کامپوننت تبدیل می‌شن
+    '\\.(css|scss|sass)$': 'identity-obj-proxy',
+    '\\.(png|jpg|jpeg|gif|webp|avif)$': '<rootDir>/__mocks__/fileMock.js',
     '\\.svg$': '<rootDir>/__mocks__/svgrMock.js',
-
-    // فایل‌های استاتیک دیگه
-    '\\.(png|jpg|jpeg)$': '<rootDir>/__mocks__/fileMock.js',
-
-    // استایل‌ها
-    '\\.(css|scss|sass)$': '<rootDir>/__mocks__/styleMock.js',
+    '^next/image$': '<rootDir>/__mocks__/next/image.js',
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
 };
